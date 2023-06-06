@@ -1,0 +1,75 @@
+body{
+    background-color:lightblue;
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  margin-left:20px;
+  margin-right:20px;
+  display:inline;
+  
+}
+
+a {
+ text-decoration:none;
+ color:white;
+}
+
+a:hover{
+    background-color:green;
+    
+}
+
+
+#bar{
+    background-color:#6495ED;
+    padding:20px;
+    text-align:center;
+    border-style:double;
+    
+}
+img {
+    width:300px;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    
+    
+ }
+ 
+h1{
+    text-align:center;
+    font-family:"copperplate";
+    color:black;
+    
+}
+
+.column{
+   flex:25%;
+     padding:15px;
+}
+
+.row{
+    display:flex;
+}
+
+#kennypooh:hover{
+    animation:kennypooh 2s forwards;
+}
+@keyframes kennypooh{
+    from{
+       width:300px;
+       height:300px;
+    }
+    to{
+        width:500px;
+        height:500px;
+    }

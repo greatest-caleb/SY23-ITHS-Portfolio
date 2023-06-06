@@ -1,0 +1,54 @@
+h1{
+    color:blue;
+    font-family:fantasy;
+    text-align:center;
+}
+h3{
+ color:red;
+text-align:center;
+
+}
+body{
+    background-image:url(https://media.istockphoto.com/id/177540653/photo/bubbles.jpg?s=612x612&w=0&k=20&c=YqzY2jT8TQW9PCdsjWcI22R3DyuH3d2-y-rErgded1g=);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+a {
+ text-decoration:none;
+ color:white;
+ font-family:fantasy;
+}
+a:hover{
+    background-color:magenta;
+}
+
+#bar{
+    background-color:navy;
+    padding:16px;
+    text-align:center;
+    border-style:double;
+    
+}
+
+#ursula{
+    display: block;
+  margin-left:45px;
+  margin-right:55px;
+  width: 50%;
+  height:50%;
+}
+
+#flounder{
+    display:block;
+    margin-left:50px;
+    margin-left:45px;
+    width:60%;
+    height:50%;
